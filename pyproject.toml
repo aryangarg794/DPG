@@ -1,0 +1,18 @@
+[project]
+name = "dpg"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "numpy>=2.2.3",
+    "torch>=2.6.0",
+    "scipy>=1.15.2",
+    "gymnasium[mujoco]>=1.1.1",
+    "matplotlib>=3.10.1",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

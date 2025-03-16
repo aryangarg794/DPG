@@ -9,7 +9,7 @@ dependencies = [
     "numpy>=2.2.3",
     "torch>=2.6.0",
     "scipy>=1.15.2",
-    "gymnasium[mujoco]>=1.1.1",
+    "gymnasium[classic-control,mujoco]>=1.1.1",
     "matplotlib>=3.10.1",
 ]
 
